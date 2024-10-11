@@ -86,8 +86,8 @@ public class Titulo implements Comparable<Titulo>{
 
     @Override
     public String toString() {
-        return "nombre = '" + nombre + '\'' +
+        return "(nombre = '" + nombre +
                 ", fechaDeLanzamiento = " + fechaDeLanzamiento +
-                ", duracion = " + duracionEnMinutos;
+                ", duracion = " + duracionEnMinutos + ")";
     }
 }
